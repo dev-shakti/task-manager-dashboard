@@ -1,8 +1,35 @@
-# React + Vite
+# Task App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple task management app built with React and Redux.
 
-Currently, two official plugins are available:
+## Setup Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/dev-shakti/task-manager-dashboard.git
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Run the app:
+   ```bash
+   npm start
+   ```
+
+# Task App
+
+A simple task management app built with React and Redux.
+
+## Features
+- Create, Edit, and Delete tasks.
+- Store tasks with Redux for state management.
+- Simple UI built with styled-components.
+- **Search filter**: Search tasks by title.
+- **Task Filters**:
+  - **All tasks**: View all tasks.
+  - **Pending tasks**: View tasks that are still in progress.
+  - **Overdue tasks**: View tasks that have passed their due date.
+  - **Completed tasks**: View tasks that have been marked as completed.
